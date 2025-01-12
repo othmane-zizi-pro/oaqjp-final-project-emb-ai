@@ -1,8 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="./static/mywebscript.js"></script>
-    <style>
+    <script src="{{ url_for('static', filename='mywebscript.js') }}"></script>    <style>
         .center-heading {
             text-align: center;
         }
@@ -11,7 +10,7 @@
 <body>
     <div class="card">
         <div class="card-body">
-            <h1 class="center-heading">NLP - Emotion Detection</h1> 
+            <h1 class="center-heading">NLP - Emotion Detection - Othmane</h1> 
             <div style="padding: 25px 25px 25px 25px;">
             <h2 class="mb-3">
                 <label class="form-label">Please enter the text to be analyzed</label>
